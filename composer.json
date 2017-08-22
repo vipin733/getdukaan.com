@@ -1,0 +1,51 @@
+{
+	"name": "laravel/laravel",
+	"description": "The Laravel Framework.",
+	"keywords": ["framework", "laravel"],
+	"license": "MIT",
+	"require": {
+		"laravel/framework": "4.2.*",
+		"laracasts/commander": "~1.0",
+		"laracasts/validation": "~1.0",
+		"intervention/image": "~2.1",
+		"anhskohbo/no-captcha": "1.*",
+		"league/flysystem-aws-s3-v2": "~1.0",
+		"graham-campbell/flysystem": "1.0.*@dev",
+		"guzzlehttp/guzzle": "~5.2",
+		"roumen/sitemap": "dev-master#dd8d820580a48394bae67c738e3f0ec4cc1d8793"
+	},
+	"autoload": {
+		"classmap": [
+			"app/commands",
+			"app/controllers",
+			"app/models",
+			"app/database/migrations",
+			"app/database/seeds",
+			"app/tests/TestCase.php"
+		],
+		
+		"psr-4":{
+			"Getdukaan\\": "app/Getdukaan"
+		}
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"php artisan clear-compiled",
+			"php artisan optimize"
+		],
+		"post-update-cmd": [
+			"php artisan clear-compiled",
+			"php artisan optimize"
+		],
+		"post-create-project-cmd": [
+			"php artisan key:generate"
+		]
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "stable",
+	"require-dev": {
+		"anahkiasen/rocketeer": "~2.1"
+	}
+}

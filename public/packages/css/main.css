@@ -1,0 +1,306 @@
+
+.user-block .media-object {
+  margin: auto; }
+
+  
+
+.navbar-default {
+  
+background-color: saddlebrown;
+  border-color: saddlebrown;
+  padding: 1em; }
+  .navbar-default .navbar-brand {
+    color: #fff;
+    margin-top: -1em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em; }
+  .navbar-default .navbar-nav > li > a {
+    color: #fff; }
+    .navbar-default .navbar-nav > li > a:hover {
+      color: #2C6C91; }
+
+.navbar-default .navbar-nav > .active > a {
+  background-color: #0092b6; }
+
+.nav-gravatar {
+  float: left;
+  position: relative;
+  top: -6px;
+  left: -10px;
+  border: 1px solid #eeeeee; }
+
+.users {
+  margin-bottom: 3em; }
+
+.user-block {
+  text-align: center; }
+
+.user-block .media-object {
+  margin: auto; }
+
+body {
+  padding-top: -20px;
+  background-color: #f0f0f0;
+  font-family: 'Roboto', sans-serif; }
+
+.container h1:first-of-type {
+  margin-top: 0; }
+
+.page-header {
+  text-align: center;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #ddd; }
+
+  .center
+  {
+    text-align: center;
+  }
+
+  .up
+  {
+    text-align: center;
+  }
+  .donot
+  {
+    text-align: -webkit-center;
+    margin-left: 33em;
+  }
+
+.site-footer
+{
+  background-color: #222;
+  color: white;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.bottom-footer
+{
+  border-top: 1px solid #b2b2b2;
+  margin-top: 10px;
+  padding-top: 10px;
+  color: #b2b2b2;
+}
+
+.footer-nav
+{
+  text-align: right;
+  list-style: none;
+}
+
+.footer-nav li
+{
+  display:inline; 
+
+}
+
+.footer-nav li:not(:first-child):before
+{
+   content: '|';
+   padding: 0px 10px;
+
+}
+.footer-nav a
+{
+  color: #b2b2b2
+}
+.footer-nav a:hover
+{
+  color: #fff;
+  text-decoration: none;
+}
+
+.privacy
+{
+  list-style: none;
+  text-align: center;
+}
+
+.privacy li
+{
+  display:inline; 
+
+}
+
+.privacy a
+{
+  color: #b2b2b2
+}
+
+.privacy a:hover
+{
+  color: #fff;
+  text-decoration: none;
+}
+
+.edit-image
+{
+  margin-top: -14em;
+}
+
+.delete-image
+{
+  margin-left: 23.29em;
+ margin-top: -7.4em;
+}
+
+#login-top
+{
+  margin-top:4em;
+}
+
+.edit-delete
+{
+    margin-top: -2em;
+
+}
+.delete
+{
+  margin-top: -5.5em;
+
+}
+.text-left-margin
+{
+  margin-top: -2em;
+}
+
+.profile-edit
+{
+  text-align: center;
+}
+
+.btn-primary, 
+.btn-primary:hover{
+  background: saddlebrown;
+  background-color: saddlebrown;
+  border: 1px solid saddlebrown; }
+
+  .responsive-video {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 60px; overflow: hidden;
+}
+
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.modal-header
+{
+  background: saddlebrown;
+  background-color: saddlebrown;
+   border: 1px solid saddlebrown;
+}
+
+.btn-naked
+{
+  background: none;
+  border: none;
+}
+.not-favorited,.favorited:hover
+{
+  color: black;
+}
+
+.not-favorited:hover,.favorited
+{
+  color: red;
+}
+
+.comments__create-form textarea {
+  border: 1px solid #e3e3e3;
+  border-top: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border-bottom: none; }
+
+
+
+.comments {
+  margin-bottom: 3em; }
+
+.comments__comment {
+  background: white;
+  margin-top: 1em;
+  border: 1px solid #d9d9d9;
+  border-bottom: 1px solid #e3e3e3; }
+
+.updated-comment
+{
+
+   margin-left: 30em;
+  margin-top: -2em;
+
+}
+
+.status-media-body {
+  color: black;
+  font-size: 1.2em;
+  padding: 0.5em 1em 1em 1em; }
+
+
+.status-media-heading {
+  color: #409dd1;
+  top: 5px; }
+
+  .delete-edit
+  {
+      margin-top: -2em;
+  }
+
+ .like
+ {
+ 
+  margin-top: -1.5em;
+ }
+ .count
+ {
+    margin-top: -1.5em;
+    margin-left: 10em;
+ }
+ .countt
+ {
+    margin-top: -1.5em;
+    margin-left: 18em;
+ }
+
+.favritedsf
+{
+    margin-top: -4em;
+  
+}
+
+.viewsss
+{
+  margin-top: -1.5em;
+  margin-left: 13em;
+  color: black;
+}
+
+.viewss
+{
+   margin-top: -1.5em;
+   margin-left: 5em;
+   color: black;
+}
+
+.register
+{
+    padding: 3em;
+    border: solid;
+    border-color: brown;
+    text-align: center;
+}
+
+
+
+
+
